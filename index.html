@@ -29,7 +29,7 @@
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#course">Course</a></li>
+                        <!--<li class="nav-item"><a class="nav-link" href="#course">Course</a></li>-->
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -39,12 +39,15 @@
         <!-- Header-->
         <header class="text-white">
             <div class="container px-4">
-                <div class="col-lg-5 header-left">
-                    <h3 class="details-code hi">Hi, my name is</h3>
-                    <h1 class="name title-section">Abraham Castillo Díaz</h1>
-                    <h2 class="profession subtitle-section">Web developer & designer</h2>
-                </div>
-                <div class="col-lg-5 header-right">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 header-left">
+                        <h3 class="details-code hi">Hi, my name is</h3>
+                        <h1 class="name title-section">Abraham Castillo Díaz</h1>
+                        <h2 class="profession subtitle-section">Web developer & designer</h2>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 header-right">
+                        <img class="" src="assets/photo1.png" alt="">
+                    </div>
                 </div>
             </div>
         </header>
@@ -94,7 +97,7 @@
                 </div>
                 <div class="row galery gx-4 justify-content-center">
                     
-                        <div class="col-4">
+                        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                             <a data-bs-toggle="modal" href="#exampleModalScrollable">
                                 <div class="portfolio-hover">
                                     <div class="title-project">
@@ -105,7 +108,7 @@
                                 <img class="img-fluid" src="assets/spotify.png" alt="..." />
                             </a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                             <a href="">
                                 <div class="portfolio-hover">
                                     <div class="title-project">
@@ -116,7 +119,7 @@
                                 <img class="img-fluid" src="assets/spotify.png" alt="..." />
                             </a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                             <a href="">
                                 <div class="portfolio-hover">
                                     <div class="title-project">
@@ -127,7 +130,7 @@
                                 <img class="img-fluid" src="assets/spotify.png" alt="..." />
                             </a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                             <a href="">
                                 <div class="portfolio-hover">
                                     <div class="title-project">
@@ -138,7 +141,7 @@
                                 <img class="img-fluid" src="assets/spotify.png" alt="..." />
                             </a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                             <a href="">
                                 <div class="portfolio-hover">
                                     <div class="title-project">
@@ -149,7 +152,7 @@
                                 <img class="img-fluid" src="assets/spotify.png" alt="..." />
                             </a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                             <a href="">
                                 <div class="portfolio-hover">
                                     <div class="title-project">
@@ -164,14 +167,14 @@
             </div>
         </section>
         
-        <!-- Course section-->
+        <!-- Course section
         <section class="" id="course">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <h2 class="title-section">Course</h2>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-- Contact section-->
         <section id="contact">
@@ -221,10 +224,13 @@
               <div class="modal-content container">
                    
                 <div class="modal-body">
+                    <div class="close-button-x">
+                        <a href="#" type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></a>
+                    </div>
+                    
                     <div class="modal-header-portfolio con">
                     </div>
-                    <a href="#" type="button" class="cl" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></a>
-                 
+                    
                     <h2 class="title-project">Titulo</h2>
                     <h3 class="details-code technologies">Tecnologias</h3>
                     <p class="paragraph paragraph-project">
